@@ -1,0 +1,15 @@
+.collection {
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+  .collection {
+    width: 100vw;
+    box-sizing: border-box;
+  }
+}
+
+.collection__tickets {
+  padding: 0;
+  box-sizing: border-box;
+}

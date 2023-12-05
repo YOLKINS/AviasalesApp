@@ -1,0 +1,90 @@
+.tabs {
+  width: 100%;
+  display: flex;
+}
+
+.buttonActive {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  background-color: #ffffff;
+
+  color: #4a4a4a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.buttonActive:disabled {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #2196f3;
+  position: relative;
+
+  color: #ffffff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.message {
+  width: 100%;
+  height: 60px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+
+  font-size: 15px;
+}
+
+@media (max-width: 420px) {
+  .message {
+    width: 100vw;
+    height: 60px;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .buttonActive {
+    max-width: 33vw;
+    max-height: 50px;
+    font-size: 10px;
+  }
+
+  .buttonActive:disabled {
+    max-width: 33vw;
+    max-height: 50px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .buttonMore {
+    max-width: 100vw;
+  }
+}
+
+.buttonMore {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+}

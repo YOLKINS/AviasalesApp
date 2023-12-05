@@ -1,9 +1,12 @@
 import React from 'react';
 
+import logo from '../../images/Logo.svg';
+import './Logo.scss';
+
 const Logo = () => {
   return (
     <div className="logo">
-      <img src="../../images/Logo.svg" alt="logo" className="logo__image" />
+      <img src={logo} alt="logo"></img>
     </div>
   );
 };
