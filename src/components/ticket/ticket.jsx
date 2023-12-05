@@ -22,18 +22,18 @@ const Ticket = ({ price, carrier, segments }) => {
         </div>
         <div className="infoDiv">В ПУТИ</div>
         <div className="infoDiv">ПЕРЕСАДКИ: {stops.length}</div>
-        <div className="infoDiv">
+        <div className="infoDiv infoDiv_black">
           {formattedTime} - {formattedResult}
         </div>
-        <div className="infoDiv">{formattedDuration}</div>
-        <div className="infoDiv">{formattedStops}</div>
+        <div className="infoDiv infoDiv_black">{formattedDuration}</div>
+        <div className="infoDiv infoDiv_black">{formattedStops}</div>
       </div>
     );
   };
 
   return (
     <li className="cover">
-      <h1 className="h1">{price} ₽</h1>
+      <h1 className="price">{price} ₽</h1>
       <div className="logo">
         <img src={`http://pics.avs.io/130/70/${carrier}.png`} alt="air-logo" />
       </div>

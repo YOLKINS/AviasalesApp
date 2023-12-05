@@ -21,7 +21,12 @@
   }
 }
 
-.h1 {
+.price {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 24px;
   margin: 20px 15px;
   width: 150px;
   height: 20px;
@@ -73,7 +78,7 @@
   margin: 0 20px;
 
   color: #a0b0b9;
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -115,6 +120,12 @@
 
 .infoDiv {
   width: 145px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+
+.infoDiv_black {
+  color: #4a4a4a;
 }
 
 .infoLine {
@@ -123,7 +134,7 @@
   flex-wrap: wrap;
   margin: 0 20px;
   color: #4a4a4a;
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-size: 16px;
   font-style: normal;
   font-weight: 600;

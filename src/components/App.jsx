@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Logo from './logo/Logo';
-import './App.css';
+import './App.scss';
 import AppTickets from './app-tickets/AppTickets';
 
 function App() {
